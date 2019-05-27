@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Edit Your Data"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/btn1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn1"
+        android:layout_marginTop="10dp"
+        android:text="User Name"
+        android:textSize="25sp"
+        android:textColor="#008800"
+        android:textStyle="bold"
+        android:id="@+id/username"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_marginTop="10dp"
+        android:text=" Email"
+        android:textSize="25sp"
+        android:textColor="#008800"
+        android:textStyle="bold"
+        android:id="@+id/email"/>
+
+
+
+</RelativeLayout>
